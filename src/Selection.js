@@ -1,16 +1,15 @@
 import React, { Component } from 'react'
 import './Selection.css'
+import RadioButton from './RadioButton'
 
 class Selection extends Component {
 
   render() {
     return (
       <div className="Selection-container">
-        <input
-          className="Selection-radio-button-selected"
-          type="radio"
-          checked={this.props.selected}
-          onChange={(e) => this.props.onSelect(parseInt(e.target.value, 10))}
+        <RadioButton
+          selected={this.props.selected}
+          onClick={this.props.onSelect}
           value={this.props.index}
         />
         <span className="Selection-title">{this.props.title}</span>

@@ -18,7 +18,7 @@ class InfoGraphic extends Component {
           src={graphcool}
           alt="graphcool"
           width={275}
-          height={174}
+          height={172}
         />
         <div className="InfoGraphic-arrow-column">
           <img className="InfoGraphic-arrow-column-top-item" src={arrowRight} alt="arrowRight"/>

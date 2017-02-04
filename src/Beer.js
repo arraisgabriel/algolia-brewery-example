@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Beer.css'
+import {Highlight} from 'react-instantsearch/dom';
 
 class Beer extends Component {
 
@@ -22,3 +23,23 @@ class Beer extends Component {
 }
 
 export default Beer
+
+/*
+
+ <Highlight attributeName='name' hit={this.props.hit}>
+ <div className="Beer-name">{this.props.hit.name}</div>
+ </Highlight>
+ <Highlight attributeName='style' hit={this.props.hit}>
+ <div className="Beer-attribute">{this.props.hit.style}</div>
+ </Highlight>
+ <Highlight attributeName='brewery.name' hit={this.props.hit}>
+ <div className="Beer-attribute">{this.props.hit.brewery.name}</div>
+ </Highlight>
+ <Highlight attributeName='ibu' hit={this.props.hit}>
+ <div className="Beer-attribute-number">{this.props.hit.ibu || '-'}</div>
+ </Highlight>
+ <Highlight attributeName='abv' hit={this.props.hit}>
+ <div className="Beer-attribute-number">{this.alcohol()} %</div>
+ </Highlight>
+
+ */

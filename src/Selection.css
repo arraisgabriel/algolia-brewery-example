@@ -1,6 +1,7 @@
 .Selection-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .Selection-title {
@@ -18,4 +19,9 @@
     border-width: 1px;
     border-color: rgba(39,174,96,1);
     border-radius: 100%;
+}
+
+input[type="radio"] {
+    border-color: red;
+    fill: red;
 }
