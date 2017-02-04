@@ -1,0 +1,23 @@
+.InfoGraphic-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.InfoGraphic-arrow-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 36px 0 36px;
+    color: rgba(39,174,96,1);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.InfoGraphic-arrow-column-top-item {
+    margin-bottom: 18px;
+}
+
+.InfoGraphic-arrow-column-bottom-item {
+    margin-top: 18px;
+}
