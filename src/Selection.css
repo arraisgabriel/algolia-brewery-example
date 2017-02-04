@@ -1,0 +1,21 @@
+.Selection-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Selection-title {
+    color: rgba(0,0,0,.5);
+    margin: 0px 4px 0px 4px;
+}
+
+.Selection-radio-button-selected {
+    margin-right: 8px;
+}
+
+.Selection-radio-button-unselected {
+    margin-right: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(39,174,96,1);
+    border-radius: 100%;
+}
