@@ -31,3 +31,7 @@ SelectionHeader.propTypes = {
   selectedIndex: React.PropTypes.number,
   onSelectionChange: React.PropTypes.func,
 }
+
+
+///	U+1F3E0 || 	\xF0\x9F\x8F\xA0 ||	house building
+/// U+1F37A ||	\xF0\x9F\x8D\xBA ||	beer mug

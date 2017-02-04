@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import frontend from './assets/frontend.svg'
 import arrowRight from './assets/arrow_right.svg'
-import graphcool from './assets/graphcool.svg'
+import graphcool from './assets/graphcool.png'
 import algolia from './assets/algolia.svg'
 import './InfoGraphic.css'
 
@@ -14,7 +14,12 @@ class InfoGraphic extends Component {
           <img className="InfoGraphic-arrow-column-top-item" src={arrowRight} alt="arrowRight"/>
           <div className="InfoGraphic-arrow-column-bottom-item">Updates</div>
         </div>
-        <img src={graphcool} alt="graphcool"/>
+        <img
+          src={graphcool}
+          alt="graphcool"
+          width={275}
+          height={174}
+        />
         <div className="InfoGraphic-arrow-column">
           <img className="InfoGraphic-arrow-column-top-item" src={arrowRight} alt="arrowRight"/>
           <div className="InfoGraphic-arrow-column-bottom-item">Auto-sync</div>

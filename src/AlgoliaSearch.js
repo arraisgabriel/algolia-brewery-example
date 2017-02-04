@@ -21,8 +21,8 @@ class AlgoliaSearch extends Component {
             <span className="AlgoliaSearch-header-name-text">Name</span>
             <span className="AlgoliaSearch-header-attribute-text">Style</span>
             <span className="AlgoliaSearch-header-attribute-text">Brewery</span>
-            <span className="AlgoliaSearch-header-attribute-number">Alcohol</span>
             <span className="AlgoliaSearch-header-attribute-number">IBU</span>
+            <span className="AlgoliaSearch-header-attribute-number">Alcohol</span>
           </div>
           <Hits hitComponent={Beer} />
           <Pagination />

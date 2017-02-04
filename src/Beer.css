@@ -1,24 +1,25 @@
 .Beer-container {
     display: flex;
+    width: 100%;
     margin: 8px 0px 8px 0px;
 }
 
 .Beer-name {
-    width: 250px;
+    width: 255px;
     font-size: 14px;
     font-weight: 600;
 }
 
 .Beer-attribute {
-    width: 220px;
+    width: 250px;
     font-size: 14px;
     font-weight: 300;
-    padding: 0px 16px 0px 16px;
+    /*padding: 0px 16px 0px 16px;*/
 }
 
 .Beer-attribute-number {
-    width: 55px;
+    width: 70px;
     font-size: 14px;
     font-weight: 300;
-    padding: 0px 25px 0px 25px;
+    /*padding: 0px 25px 0px 25px;*/
 }

@@ -6,21 +6,19 @@ class Beer extends Component {
   render() {
     return (
       <div className="Beer-container">
-        <span className="Beer-name">{this.props.hit.name}</span>
-        <span className="Beer-attribute">{this.props.hit.style}</span>
-        <span className="Beer-attribute">{this.props.hit.brewery.name}</span>
-        <span className="Beer-attribute-number">{this.props.hit.ibu}</span>
-        <span className="Beer-attribute-number">{this.props.hit.abv * 100} %</span>
+        <div className="Beer-name">{this.props.hit.name}</div>
+        <div className="Beer-attribute">{this.props.hit.style}</div>
+        <div className="Beer-attribute">{this.props.hit.brewery.name}</div>
+        <div className="Beer-attribute-number">{this.props.hit.ibu || '-'}</div>
+        <div className="Beer-attribute-number">{this.alcohol()} %</div>
       </div>
     )
+  }
+
+  alcohol() {
+    const alcolholString = String(this.props.hit.abv * 100)
+    return alcolholString.substring(0, 3)
   }
 }
 
 export default Beer
-
-// Beer.propTypes = {
-//   hit: React.PropTypes.shape,
-//   // name: React.PropTypes.string,
-//   // style: React.PropTypes.string,
-//   // brewery: React.PropTypes.shape,
-// }
