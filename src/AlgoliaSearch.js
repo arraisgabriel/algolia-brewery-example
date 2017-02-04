@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './AlgoliaSearch.css'
-import {InstantSearch, Hits, SearchBox} from 'react-instantsearch/dom';
+import {InstantSearch, Hits, SearchBox, Pagination} from 'react-instantsearch/dom';
 import Beer from './Beer'
 
 class AlgoliaSearch extends Component {
@@ -19,6 +19,7 @@ class AlgoliaSearch extends Component {
           />
           <div></div>
           <Hits hitComponent={Beer} />
+          <Pagination />
         </div>
       </InstantSearch>
     )

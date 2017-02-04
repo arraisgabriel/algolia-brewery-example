@@ -38,3 +38,12 @@
 .ais-SearchBox__reset {
     display: none;
 }
+
+.ais-Pagination__root {
+    display: flex;
+    list-style: none;
+}
+
+.ais-Pagination__itemLink {
+    margin: 0 3px 0 3px;
+}
