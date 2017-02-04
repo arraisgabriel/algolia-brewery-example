@@ -17,7 +17,13 @@ class AlgoliaSearch extends Component {
             translations={{placeholder: 'Search beers by names, style, or brewery...'}}
             searchAsYouType={true}
           />
-          <div></div>
+          <div className="AlgoliaSearch-header">
+            <span className="AlgoliaSearch-header-name-text">Name</span>
+            <span className="AlgoliaSearch-header-attribute-text">Style</span>
+            <span className="AlgoliaSearch-header-attribute-text">Brewery</span>
+            <span className="AlgoliaSearch-header-attribute-number">Alcohol</span>
+            <span className="AlgoliaSearch-header-attribute-number">IBU</span>
+          </div>
           <Hits hitComponent={Beer} />
           <Pagination />
         </div>

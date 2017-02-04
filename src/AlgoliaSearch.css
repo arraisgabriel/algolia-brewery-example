@@ -5,16 +5,33 @@
     margin-bottom: 150px;
 }
 
+.AlgoliaSearch-header {
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, .2);
+    padding-bottom: 16px;
+    margin: 38px;
+}
+
 .AlgoliaSearch-header-name-text {
     width: 250px;
     font-size: 16px;
     font-weight: 600;
+    padding: 0px 16px 0px 16px;
 }
 
 .AlgoliaSearch-header-attribute-text {
     width: 220px;
     font-size: 16px;
     font-weight: 300;
+}
+
+.AlgoliaSearch-header-attribute-number {
+    width: 55px;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px 25px 0px 25px;
 }
 
 .ais-SearchBox__input {
