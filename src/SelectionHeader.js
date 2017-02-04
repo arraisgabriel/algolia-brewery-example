@@ -11,13 +11,13 @@ class SelectionHeader extends Component {
         <Selection
           selected={this.props.selectedIndex === 0}
           title='All Beers'
-          onSelectionChange={this.props.onSelect}
+          onSelect={this.props.onSelectionChange}
           index={0}
         />
         <Selection
           selected={this.props.selectedIndex === 1}
           title='Specific Brewery'
-          onSelect={this.props.onSelect}
+          onSelect={this.props.onSelectionChange}
           index={1}
         />
       </div>

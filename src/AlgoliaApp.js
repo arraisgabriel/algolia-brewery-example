@@ -3,11 +3,6 @@ import './AlgoliaApp.css'
 import SelectionHeader from './SelectionHeader'
 import AlgoliaSearch from './AlgoliaSearch'
 
-/*
-state:
-  selection: AlgoliaAppStateSelection (number)
-*/
-
 const AlgoliaAppStateSelection = {
   BEER : 0,
   BREWERY : 1,
@@ -24,9 +19,11 @@ class AlgoliaApp extends Component {
       <div className="AlgoliaApp-container">
         <SelectionHeader
           selectedIndex={this.state.selection}
-          onSelectionChange={this.props.onSelectionChange}
+          onSelectionChange={this.onSelectionChange}
         />
-        <AlgoliaSearch />
+        <AlgoliaSearch
+          indexName={this.currentIndexName()}
+        />
       </div>
     )
   }
@@ -35,6 +32,13 @@ class AlgoliaApp extends Component {
     this.setState({
       selection: index,
     })
+  }
+
+  currentIndexName = () => {
+    switch (this.state.selection) {
+      case AlgoliaAppStateSelection.BEER: return 'Beers'
+      case AlgoliaAppStateSelection.BREWERY: return 'ChampionBrewery'
+    }
   }
 
 }

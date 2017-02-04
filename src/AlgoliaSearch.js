@@ -10,7 +10,7 @@ class AlgoliaSearch extends Component {
       <InstantSearch
         appId='6D5XUIAPG1'
         apiKey='deb1e3039cc6de01ab0128b71a42c019'
-        indexName={'Beers'}
+        indexName={this.props.indexName}
       >
         <div className="AlgoliaSearch-container">
           <SearchBox
@@ -29,5 +29,5 @@ class AlgoliaSearch extends Component {
 export default AlgoliaSearch
 
 AlgoliaSearch.propTypes = {
-
+  indexName: React.PropTypes.string,
 }
