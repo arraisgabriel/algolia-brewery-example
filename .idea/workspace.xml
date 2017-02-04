@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bed6f91-a783-45ff-bf85-2e5ece4f01de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlgoliaSearch.css" afterPath="$PROJECT_DIR$/src/AlgoliaSearch.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlgoliaSearch.js" afterPath="$PROJECT_DIR$/src/AlgoliaSearch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Beer.css" afterPath="$PROJECT_DIR$/src/Beer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Beer.js" afterPath="$PROJECT_DIR$/src/Beer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InfoGraphic.js" afterPath="$PROJECT_DIR$/src/InfoGraphic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Selection.css" afterPath="$PROJECT_DIR$/src/Selection.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SelectionHeader.js" afterPath="$PROJECT_DIR$/src/SelectionHeader.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,17 +75,17 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="AlgoliaSearch.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="AlgoliaSearch.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/AlgoliaSearch.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                <state relative-caret-position="652">
+                  <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="InfoGraphic.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="InfoGraphic.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/InfoGraphic.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="340">
@@ -160,8 +152,8 @@
         <option value="$PROJECT_DIR$/src/Selection.css" />
         <option value="$PROJECT_DIR$/src/Beer.js" />
         <option value="$PROJECT_DIR$/src/Beer.css" />
-        <option value="$PROJECT_DIR$/src/AlgoliaSearch.css" />
         <option value="$PROJECT_DIR$/src/InfoGraphic.js" />
+        <option value="$PROJECT_DIR$/src/AlgoliaSearch.css" />
       </list>
     </option>
   </component>
@@ -291,12 +283,12 @@
       <workItem from="1486144356187" duration="52000" />
       <workItem from="1486145743922" duration="2637000" />
       <workItem from="1486190863314" duration="11433000" />
-      <workItem from="1486216940291" duration="3107000" />
+      <workItem from="1486216940291" duration="3366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19836000" />
+    <option name="totallyTimeSpent" value="20095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
@@ -706,14 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AlgoliaSearch.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InfoGraphic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -721,6 +705,14 @@
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlgoliaSearch.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
