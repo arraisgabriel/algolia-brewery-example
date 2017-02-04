@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bed6f91-a783-45ff-bf85-2e5ece4f01de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlgoliaSearch.css" afterPath="$PROJECT_DIR$/src/AlgoliaSearch.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlgoliaSearch.js" afterPath="$PROJECT_DIR$/src/AlgoliaSearch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -91,11 +90,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AlgoliaSearch.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="AlgoliaSearch.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/AlgoliaSearch.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="323">
                   <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -190,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/AlgoliaApp.js" />
         <option value="$PROJECT_DIR$/src/AlgoliaSearch.js" />
         <option value="$PROJECT_DIR$/src/AlgoliaSearch.css" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -381,12 +391,12 @@
       <workItem from="1486141493896" duration="2607000" />
       <workItem from="1486144356187" duration="52000" />
       <workItem from="1486145743922" duration="2637000" />
-      <workItem from="1486190863314" duration="11088000" />
+      <workItem from="1486190863314" duration="11218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16384000" />
+    <option name="totallyTimeSpent" value="16514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
@@ -741,6 +751,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
