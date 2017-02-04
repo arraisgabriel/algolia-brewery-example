@@ -10,7 +10,7 @@ class Selection extends Component {
           className="Selection-radio-button-selected"
           type="radio"
           checked={this.props.selected}
-          onChange={(e) => this.props.onSelect(e.target.value)}
+          onChange={(e) => this.props.onSelect(parseInt(e.target.value, 10))}
           value={this.props.index}
         />
         <span className="Selection-title">{this.props.title}</span>

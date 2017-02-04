@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import './AlgoliaApp.css'
 import SelectionHeader from './SelectionHeader'
+import AlgoliaSearch from './AlgoliaSearch'
 
 /*
 state:
   selection: AlgoliaAppStateSelection (number)
-
 */
 
 const AlgoliaAppStateSelection = {
@@ -26,15 +26,17 @@ class AlgoliaApp extends Component {
           selectedIndex={this.state.selection}
           onSelect={this.onSelectionChange}
         />
+        <AlgoliaSearch />
       </div>
     )
   }
 
   onSelectionChange = (index) => {
     this.setState({
-      selection: index,
+    selection: index,
     })
   }
+
 }
 
 export default AlgoliaApp
