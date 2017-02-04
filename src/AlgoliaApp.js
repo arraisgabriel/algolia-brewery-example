@@ -24,7 +24,7 @@ class AlgoliaApp extends Component {
       <div className="AlgoliaApp-container">
         <SelectionHeader
           selectedIndex={this.state.selection}
-          onSelect={this.onSelectionChange}
+          onSelectionChange={this.props.onSelectionChange}
         />
         <AlgoliaSearch />
       </div>
@@ -33,7 +33,7 @@ class AlgoliaApp extends Component {
 
   onSelectionChange = (index) => {
     this.setState({
-    selection: index,
+      selection: index,
     })
   }
 

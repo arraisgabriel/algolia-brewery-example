@@ -1,5 +1,6 @@
 .Beer-container {
     display: flex;
+    margin: 8px 0px 8px 0px;
 }
 
 .Beer-name {
@@ -8,9 +9,16 @@
     font-weight: 600;
 }
 
-
 .Beer-attribute {
-    width: 200px;
+    width: 220px;
     font-size: 14px;
     font-weight: 300;
+    padding: 0px 16px 0px 16px;
+}
+
+.Beer-attribute-number {
+    width: 55px;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0px 25px 0px 25px;
 }

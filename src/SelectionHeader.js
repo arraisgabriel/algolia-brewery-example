@@ -11,7 +11,7 @@ class SelectionHeader extends Component {
         <Selection
           selected={this.props.selectedIndex === 0}
           title='All Beers'
-          onSelect={this.props.onSelect}
+          onSelectionChange={this.props.onSelect}
           index={0}
         />
         <Selection
@@ -29,5 +29,5 @@ export default SelectionHeader
 
 SelectionHeader.propTypes = {
   selectedIndex: React.PropTypes.number,
-  onSelect: React.PropTypes.func,
+  onSelectionChange: React.PropTypes.func,
 }

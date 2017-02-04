@@ -9,6 +9,8 @@ class Beer extends Component {
         <span className="Beer-name">{this.props.hit.name}</span>
         <span className="Beer-attribute">{this.props.hit.style}</span>
         <span className="Beer-attribute">{this.props.hit.brewery.name}</span>
+        <span className="Beer-attribute-number">{this.props.hit.ibu}</span>
+        <span className="Beer-attribute-number">{this.props.hit.abv * 100} %</span>
       </div>
     )
   }

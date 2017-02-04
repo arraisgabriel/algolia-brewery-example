@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './AlgoliaSearch.css'
-import {InstantSearch, Hits} from 'react-instantsearch/dom';
+import {InstantSearch, Hits, SearchBox} from 'react-instantsearch/dom';
 import Beer from './Beer'
 
 class AlgoliaSearch extends Component {
@@ -13,6 +13,11 @@ class AlgoliaSearch extends Component {
         indexName={'Beers'}
       >
         <div className="AlgoliaSearch-container">
+          <SearchBox
+            translations={{placeholder: 'Search beers by names, style, or brewery...'}}
+            searchAsYouType={true}
+          />
+          <div></div>
           <Hits hitComponent={Beer} />
         </div>
       </InstantSearch>
