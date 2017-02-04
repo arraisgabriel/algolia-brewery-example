@@ -10,13 +10,13 @@ class SelectionHeader extends Component {
         <span className="SelectionHeader-title">SELECT EXAMPLE</span>
         <Selection
           selected={this.props.selectedIndex === 0}
-          title='All Beers'
+          title='All Beers 🍻'
           onSelect={this.props.onSelectionChange}
           index={0}
         />
         <Selection
           selected={this.props.selectedIndex === 1}
-          title='Specific Brewery'
+          title='Specific Brewery 🏠'
           onSelect={this.props.onSelectionChange}
           index={1}
         />

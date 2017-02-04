@@ -59,10 +59,13 @@
 .ais-Pagination__root {
     display: flex;
     list-style: none;
+    margin-top: 40px;
 }
 
 .ais-Pagination__itemLink {
-    margin: 0 3px 0 3px;
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+    color: rgba(0,0,0,.6);
 }
 
 /* do not group these rules */

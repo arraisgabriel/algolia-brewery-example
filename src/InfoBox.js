@@ -11,7 +11,14 @@ class InfoBox extends Component {
           Data is synced automatically
           from Graphcool to an Algolia Index
           by a GraphQL query
-          <span className="InfoBox-semibold"> (Read tutorial)</span>
+          <span className="InfoBox-semibold">
+            <a
+              href="https://graph.cool/docs/tutorials/algolia-auto-syncing-for-graphql-backends-aroozee9zu"
+              className="InfoBox-link"
+            >
+              (Read tutorial)
+            </a>
+          </span>
         </span>
       </div>
     )
