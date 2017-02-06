@@ -6,7 +6,10 @@ class Selection extends Component {
 
   render() {
     return (
-      <div className="Selection-container">
+      <div
+        className="Selection-container"
+        onClick={() => this.props.onSelect(this.props.index)}
+      >
         <RadioButton
           selected={this.props.selected}
           onClick={this.props.onSelect}

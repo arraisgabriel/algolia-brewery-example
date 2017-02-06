@@ -27,16 +27,16 @@
                     <g id="graphql" transform="translate(135.000000, 9.000000)" font-size="12" font-family="SourceCodePro-Medium, Source Code Pro" line-spacing="14" font-weight="400">
                         <text id="query-sync-{-node-{">
                             <tspan x="19.036" y="25" fill="#9B9B9B">query sync {</tspan>
-                            <tspan x="19.036" y="39" fill="#9B9B9B">  node {</tspan>
+                            <tspan x="32.036" y="39" fill="#9B9B9B">  node {</tspan>
                             <tspan x="79" y="40.72" fill="#363636"></tspan>
                             <tspan x="19.036" y="53" fill="#363636">    </tspan>
                             <tspan x="47.8" y="53" font-family="SourceCodePro-Semibold, Source Code Pro" font-weight="500" fill="#27AE60">name</tspan>
-                            <tspan x="19" y="67" font-family="SourceCodePro-Semibold, Source Code Pro" font-weight="500" fill="#27AE60">    style</tspan>
-                            <tspan x="19" y="81" font-family="SourceCodePro-Semibold, Source Code Pro" font-weight="500" fill="#27AE60">    brewery {</tspan>
-                            <tspan x="19" y="95" font-family="SourceCodePro-Semibold, Source Code Pro" font-weight="500" fill="#27AE60">      name</tspan>
-                            <tspan x="19" y="109" font-family="SourceCodePro-Semibold, Source Code Pro" font-weight="500" fill="#27AE60">    }</tspan>
+                            <tspan x="47.8" y="67" font-family="SourceCodePro-Semibold, Source Code Pro" font-weight="500" fill="#27AE60">    style</tspan>
+                            <tspan x="47.8" y="81" font-family="SourceCodePro-Semibold, Source Code Pro" font-weight="500" fill="#27AE60">    brewery {</tspan>
+                            <tspan x="60.8" y="95" font-family="SourceCodePro-Semibold, Source Code Pro" font-weight="500" fill="#27AE60">      name</tspan>
+                            <tspan x="47.8" y="109" font-family="SourceCodePro-Semibold, Source Code Pro" font-weight="500" fill="#27AE60">    }</tspan>
                             <tspan x="57.4" y="110.72" font-family="SourceCodePro-Semibold, Source Code Pro" font-weight="500" fill="#363636"></tspan>
-                            <tspan x="21.4" y="123" fill="#9B9B9B">	}</tspan>
+                            <tspan x="32.036" y="123" fill="#9B9B9B">	}</tspan>
                             <tspan x="19.036" y="137" fill="#9B9B9B">}</tspan>
                         </text>
                     </g>

@@ -38,6 +38,7 @@ class AlgoliaApp extends Component {
     switch (this.state.selection) {
       case AlgoliaAppStateSelection.BEER: return 'Beers'
       case AlgoliaAppStateSelection.BREWERY: return 'ChampionBrewery'
+      default: return 'Unknown'
     }
   }
 

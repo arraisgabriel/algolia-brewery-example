@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import frontend from './assets/frontend.svg'
 import arrowRight from './assets/arrow_right.svg'
-import graphcool from './assets/graphcool.png'
+import graphcool from './assets/graphcool.svg'
 import algolia from './assets/algolia.svg'
 import './InfoGraphic.css'
 
