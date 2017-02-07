@@ -8,12 +8,14 @@
     width: 255px;
     font-size: 14px;
     font-weight: 600;
+    text-overflow: ellipsis;
 }
 
 .Beer-attribute {
     width: 250px;
     font-size: 14px;
     font-weight: 300;
+    text-overflow: ellipsis;
     /*padding: 0px 16px 0px 16px;*/
 }
 

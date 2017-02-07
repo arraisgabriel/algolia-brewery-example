@@ -14,6 +14,7 @@ class InfoBox extends Component {
           <span className="InfoBox-semibold">
             <a
               href="https://graph.cool/docs/tutorials/algolia-auto-syncing-for-graphql-backends-aroozee9zu"
+              target="_blank"
               className="InfoBox-link"
             >
               (Read tutorial)

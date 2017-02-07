@@ -27,7 +27,6 @@ class Beer extends Component {
 
   alcohol() {
     const alcolholString = String(this.props.hit.abv * 100).substring(0, 3)
-    console.log(alcolholString)
     return alcolholString
   }
 }
